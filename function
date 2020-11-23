@@ -1,0 +1,6 @@
+function sumArray([x,y,z,a])
+Item = [x,y,z,a]
+let sum = 0
+for(let i = 0; i<=6; i++){
+   Item[i] = i;
+sum = sum + Item[i]
