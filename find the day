@@ -1,0 +1,14 @@
+function returnDay(x){
+
+let Days = {
+             1:"Monday",2:"Tuesday",3:"Wednesday",4:"Thursday",5           :"Friday",6:"Saturday",7:"Sunday"}
+if(x<1 || x>7){
+    return("Null")
+    
+}
+else{
+    return Days[x] 
+}
+            
+}
+returnDay()
