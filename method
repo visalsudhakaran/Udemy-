@@ -1,0 +1,21 @@
+#Method is a functioninside a object 
+
+const square = {
+    area: function(side){
+        return side*side;
+    },
+    perimeter: function(side){
+			return side*4
+}
+}
+
+OR
+
+const square = {
+    area(side){
+        return side*side;
+    },
+    perimeter(side){
+			return side*4
+}
+}
